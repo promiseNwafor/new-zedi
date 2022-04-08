@@ -1,0 +1,78 @@
+$blue: #1f0076;
+$secondary: #fdf1ff;
+$purple: #612ff1;
+$grey: #efecf9;
+$title: #4e4a5a;
+$text: #645f71;
+
+$theme-colors: (
+  "primary": $purple,
+  "secondary": $secondary,
+  "dark": $blue,
+);
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+* {
+  font-family: "poppins";
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+
+  &:hover {
+    color: inherit;
+  }
+}
+
+li {
+  list-style: none;
+}
+
+button.btn {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+nav {
+  background: $secondary;
+
+  .navbar-toggler {
+    border: 3px solid gray !important;
+  }
+
+  .navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1 !important;
+    align-items: center;
+  }
+
+  a {
+    font-weight: 500;
+  }
+
+  a.navbar-brand {
+    flex-grow: 5 !important;
+
+    img {
+      width: 50px;
+    }
+  }
+}
+
+.hero.home {
+  min-height: 100vh;
+
+  .text {
+    h1 {
+      font-weight: 700;
+      font-size: 3rem;
+      line-height: 4.5rem;
+    }
+    p {
+      font-weight: 500;
+      line-height: 1.5rem;
+    }
+  }
+}
