@@ -9,12 +9,29 @@ $theme-colors: (
   "primary": $purple,
   "secondary": $secondary,
   "dark": $blue,
+  "info": $text,
+  "title": $title,
 );
 
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 * {
   font-family: "poppins";
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 4.5rem;
+}
+p {
+  line-height: 1.5rem;
+}
+
+@media (max-width: 825px) {
+  h1 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
 }
 
 a {
@@ -35,17 +52,22 @@ button.btn {
   border-radius: 8px;
 }
 
+@media (max-width: 425px) {
+  .container {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+}
+
 nav {
   background: $secondary;
 
-  .navbar-toggler {
-    border: 3px solid gray !important;
-  }
-
   .navbar-collapse {
-    flex-basis: 100%;
-    flex-grow: 1 !important;
-    align-items: center;
+    justify-content: center;
+
+    .navbar-nav {
+      justify-self: center !important;
+    }
   }
 
   a {
@@ -63,16 +85,60 @@ nav {
 
 .hero.home {
   min-height: 100vh;
+}
 
-  .text {
-    h1 {
-      font-weight: 700;
-      font-size: 3rem;
-      line-height: 4.5rem;
+.Stats {
+  .stat {
+    background-color: $grey;
+    padding: 1rem 0;
+    border-radius: 20px;
+    height: 100px;
+    max-width: 332px;
+    // margin: auto;
+  }
+}
+
+.Featured {
+  h3 {
+    font-size: 1.4rem;
+    font-weight: 700;
+  }
+}
+
+.Testimonials {
+  .cover {
+    height: auto;
+
+    .box {
+      box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.05);
+      border-radius: 10px;
+      // margin: 0px 8px;
+      padding: 20px;
+      height: 100%;
+
+      .name {
+        h2 {
+          font-size: 20px;
+        }
+        p {
+          font-size: 14px;
+        }
+      }
     }
-    p {
-      font-weight: 500;
-      line-height: 1.5rem;
-    }
+  }
+}
+
+.Subscribe {
+  background: linear-gradient(254.81deg, #d5569a 8.13%, #29009f 92.46%);
+  backdrop-filter: blur(4px);
+  border-radius: 50px;
+
+  p {
+    font-size: 14px;
+  }
+
+  input,
+  button {
+    border-radius: 10px !important;
   }
 }
