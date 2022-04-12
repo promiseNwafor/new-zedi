@@ -1,7 +1,10 @@
 import React from "react"
-import { StaticImage } from "gatsby-plugin-image"
 import { Link } from "gatsby"
 import logo from "../assets/icons/logo.svg"
+import linkedin from "../assets/svgs/linkedin.svg"
+import facebook from "../assets/svgs/facebook.svg"
+import instagram from "../assets/svgs/instagram.svg"
+import twitter from "../assets/svgs/twitter.svg"
 
 const Footer = () => {
   return (
@@ -56,22 +59,10 @@ const Footer = () => {
                 © Copyright 2022 - Zedi Africa Limited, All rights reserved.
               </p>
               <div className="">
-                <StaticImage src="../assets/svgs/facebook.svg" alt="facebook" />
-                <StaticImage
-                  className="ms-3"
-                  src="../assets/svgs/twitter.svg"
-                  alt="twitter"
-                />
-                <StaticImage
-                  className="ms-3"
-                  src="../assets/svgs/instagram.svg"
-                  alt="instagram"
-                />
-                <StaticImage
-                  className="ms-3"
-                  src="../assets/svgs/linkedin.svg"
-                  alt="linkedin"
-                />
+                <img src={facebook} alt="facebook" />
+                <img className="ms-3" src={twitter} alt="twitter" />
+                <img className="ms-3" src={instagram} alt="instagram" />
+                <img className="ms-3" src={linkedin} alt="linkedin" />
               </div>
             </div>
           </div>
