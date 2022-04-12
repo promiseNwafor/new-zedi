@@ -1,0 +1,12 @@
+.about.hero {
+  height: 50vh;
+  min-height: 500px;
+}
+
+@media (max-width: 425px) {
+  .about.hero {
+    h1 {
+      font-size: 1.6rem;
+    }
+  }
+}

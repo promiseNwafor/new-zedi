@@ -1,12 +1,12 @@
-import kemi from "../assets/svgs/kemi.svg"
-import temi from "../assets/svgs/temi.svg"
-import bide from "../assets/svgs/bide.svg"
-import getEquity from "../assets/svgs/Get-Equity-Logo.svg"
-import sendMercury from "../assets/svgs/Send-Mercury-Logo.svg"
-import hirefoster from "../assets/svgs/Hirefoster-Logo.svg"
-import MCG from "../assets/svgs/MCG-Logo.svg"
-import spark from "../assets/svgs/Spark-Logo.svg"
-import opportunik from "../assets/svgs/Opportunik-Logo.svg"
+import kemi from "../../assets/svgs/kemi.svg"
+import temi from "../../assets/svgs/temi.svg"
+import bide from "../../assets/svgs/bide.svg"
+import getEquity from "../../assets/svgs/Get-Equity-Logo.svg"
+import sendMercury from "../../assets/svgs/Send-Mercury-Logo.svg"
+import hirefoster from "../../assets/svgs/Hirefoster-Logo.svg"
+import MCG from "../../assets/svgs/MCG-Logo.svg"
+import spark from "../../assets/svgs/Spark-Logo.svg"
+import opportunik from "../../assets/svgs/Opportunik-Logo.svg"
 
 export const STATS = [
   {

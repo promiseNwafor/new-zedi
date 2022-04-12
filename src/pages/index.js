@@ -1,14 +1,13 @@
 import * as React from "react"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import Hero from "../components/Hero"
-import Stats from "../components/Stats"
-import Featured from "../components/Featured"
-import Supercharge from "../components/Supercharge"
-import CreateTeam from "../components/CreateTeam"
-import Testimonials from "../components/Testimonials"
-import Clients from "../components/Clients"
-import Subscribe from "../components/Subscribe"
+import Hero from "../components/Home/Hero"
+import Stats from "../components/Home/Stats"
+import Featured from "../components/Home/Featured"
+import Supercharge from "../components/Home/Supercharge"
+import CreateTeam from "../components/Home/CreateTeam"
+import Testimonials from "../components/Home/Testimonials"
+import Clients from "../components/Home/Clients"
 
 const IndexPage = () => (
   <Layout>
@@ -20,7 +19,6 @@ const IndexPage = () => (
     <CreateTeam />
     <Testimonials />
     <Clients />
-    <Subscribe />
   </Layout>
 )
 
