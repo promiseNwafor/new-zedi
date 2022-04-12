@@ -3,7 +3,7 @@ import { CLIENTS } from "./constants"
 
 const Clients = () => {
   return (
-    <div className="container">
+    <div className="container py-md-5">
       <div className="row">
         {CLIENTS.map(item => (
           <div key={item.id} className="col d-flex justify-content-center">

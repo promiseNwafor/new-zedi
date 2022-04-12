@@ -3,7 +3,7 @@ import React from "react"
 const Subscribe = () => {
   return (
     <div className="text-white text-center container-fluid py-5 my-5">
-      <div className="Subscribe container d-flex align-items-center py-4 py-md-5 pb-sm-0">
+      <div className="Subscribe container d-flex align-items-center py-5">
         <div className="row justify-content-between align-items-center">
           <div className="col-12 col-md-9 m-auto">
             <h3 className="pb-2">Sign up for our monthly newsletter</h3>
@@ -15,7 +15,7 @@ const Subscribe = () => {
             <div className="input-group mt-4">
               <input
                 type="text"
-                className="form-control py-2 me-2"
+                className="form-control py-2 me-1 me-md-2"
                 placeholder="Enter your email address"
                 aria-label="Recipient's username"
                 aria-describedby="button-addon2"

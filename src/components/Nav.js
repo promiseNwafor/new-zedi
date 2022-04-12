@@ -1,9 +1,7 @@
 import * as React from "react"
-import { StaticImage } from "gatsby-plugin-image"
 import { Navbar, Container, Nav } from "react-bootstrap"
 import { Link } from "gatsby"
 import logo from "../assets/icons/logo.svg"
-import "./styles.scss"
 
 const NavComponent = () => (
   <Navbar className="container-fluid" bg="light" expand="lg">
