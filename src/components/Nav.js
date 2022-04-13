@@ -21,12 +21,12 @@ const NavComponent = () => (
               </Link>
             </li>
             <li className="nav-item mb-0">
-              <Link className="nav-link mx-3 text-dark" to="/about">
+              <Link className="nav-link mx-3 text-dark" to="/services">
                 Services
               </Link>
             </li>
             <li className="nav-item mb-0">
-              <Link className="nav-link mx-3 text-dark" to="/about">
+              <Link className="nav-link mx-3 text-dark" to="/contact">
                 Create Team
               </Link>
             </li>
