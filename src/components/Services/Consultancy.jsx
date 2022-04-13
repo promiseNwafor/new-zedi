@@ -1,5 +1,5 @@
 import React from "react"
-import { CONSULTANCY, WEB_DEVELOPMENT } from "./constants"
+import { CONSULTANCY } from "./constants"
 
 const Consultancy = () => {
   return (
