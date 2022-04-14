@@ -26,12 +26,12 @@ const NavComponent = () => (
               </Link>
             </li>
             <li className="nav-item mb-0">
-              <Link className="nav-link mx-3 text-dark" to="/contact">
+              <Link className="nav-link mx-3 text-dark" to="/creat-team">
                 Create Team
               </Link>
             </li>
             <li className="nav-item mb-0">
-              <Link className="nav-link mx-3 text-dark" to="/about">
+              <Link className="nav-link mx-3 text-dark" to="/blog">
                 Blog
               </Link>
             </li>
@@ -39,7 +39,7 @@ const NavComponent = () => (
         </Nav>
         <div className="action-button text-center">
           <button className="btn btn-primary px-4 py-2">
-            <Link className="text-light" to="/about">
+            <Link className="text-light" to="/contact">
               Contact Us
             </Link>
           </button>

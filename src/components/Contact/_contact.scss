@@ -1,0 +1,32 @@
+.get-in-touch {
+  h4 {
+    color: #303030;
+  }
+
+  button,
+  input,
+  textarea {
+    padding: 10px 24px;
+    border-radius: 10px;
+    border: 2px solid #d4c5ff;
+    outline: none;
+
+    &:hover {
+      color: $blue;
+      background: #f0eaff;
+    }
+
+    &:focus {
+      color: $blue;
+      background: #f0eaff;
+      box-shadow: none;
+    }
+  }
+}
+.contact-details {
+  .social {
+    img {
+      width: 60px;
+    }
+  }
+}

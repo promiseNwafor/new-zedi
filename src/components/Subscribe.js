@@ -14,10 +14,10 @@ const Subscribe = () => {
             </p>
             <div className="input-group mt-4">
               <input
-                type="text"
+                type="email"
                 className="form-control py-2 me-1 me-md-2"
                 placeholder="Enter your email address"
-                aria-label="Recipient's username"
+                aria-label="email"
                 aria-describedby="button-addon2"
               />
               <button
