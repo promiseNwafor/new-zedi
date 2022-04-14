@@ -31,21 +31,18 @@ export const FEATURED = [
     title: "We want your problems",
     subtitle:
       "Business problems always exists, from teething to maturity and we navigate through yours and solve them by understanding your audience in the best  and most budget-friendly way.",
-    src: "../assets/svgs/featured.svg",
   },
   {
     id: 1,
     title: "We solve them creatively",
     subtitle:
       "We transform ideas into practical solutions and solutions into success stories, using creativity as a tool whilst pushing the boundaries of what is possible.",
-    src: "../assets/svgs/featured.svg",
   },
   {
     id: 2,
     title: "We bring your goals to life",
     subtitle:
       "We live for businesses and tech startups who want to do things differently.",
-    src: "../assets/svgs/featured.svg",
   },
 ]
 export const TESTIMONIALS = [
